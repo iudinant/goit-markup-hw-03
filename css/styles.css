@@ -1,0 +1,235 @@
+:root {
+    --color-primary: #2E2F42;
+    --color-secondary: #434455;
+    --color-background: #4D5AE5;
+    --color-nav-btn: #F4F4FD;
+    --color-footer-logo: #ffffff;
+    --color-footer-text: #F4F4FD;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+color: #434455;
+background-color: #ffffff;
+}
+
+/* Header */
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: var(--color-primary);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-background);
+    }
+
+.logo-style {
+        color: var(--color-primary);
+    }
+
+.link{
+        text-decoration: none;
+    }
+
+.list {
+        text-decoration: none;
+        list-style: none;
+    }
+
+.nav-link {
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+    }
+
+    .nav-link:hover,
+    .nav-link:focus{
+        color: #404bbf;
+    }
+
+    .address{
+        font-style: normal;
+        
+    }
+    .address-link{
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--color-secondary);
+    }
+    .address-link:hover,
+    .address-link:focus{
+        color: #404bbf;
+    }
+
+
+/* hero */
+
+.hero{
+    background-color: var(--color-primary);
+}
+
+.hero-title{
+color: var(--color-footer-logo);
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+.hero-btn{
+font-family: inherit;
+color: var(--color-footer-logo);
+background-color: var(--color-background);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #404BBF;
+    cursor:pointer;
+}
+
+/* preferences */
+.preferences {
+    font-family: inherit;
+}
+.preferences-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+
+.preferences-text {
+    font-family: inherit;
+    color: var(--color-secondary);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* projects */
+.projects-intro-title{
+    font-family: inherit;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-primary);
+}
+
+.projects-intro-list{
+    background-color: #FFFFFF; 
+}
+
+/* Team */
+
+.team {
+    background-color: var(--color-footer-text);
+}
+.team-title {
+font-family: inherit;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--color-primary);
+}
+
+.team-list {
+    background-color: #ffffff;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
+.team-item-title{
+font-family: inherit;
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+.team-text {
+    font-family: inherit;
+    color: var(--color-secondary);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--color-primary);
+}
+.footer-link {
+    font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--color-background);
+text-decoration: none;
+}
+.footer-text {
+    font-family: inherit;
+    color: var(--color-footer-text);
+}
+.logo-style-bottom{
+    color: var(--color-footer-text);
+}
+
+
+/* ----------Portfolio----------- */
+
+.nav-btn {
+    background-color: var(--color-nav-btn);
+    color: var(--color-background);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+.nav-btn:hover,
+.nav-btn:focus{
+background-color: #404BBF;
+cursor: pointer;
+color: var(--color-footer-logo);
+}
+
+/* portfolio cards */
+
+.portfolio-cards-title {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+.portfolio-cards-text {
+    font-family: inherit;
+    color: var(--color-secondary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
