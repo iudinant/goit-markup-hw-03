@@ -86,6 +86,8 @@ img{
 .list {
         text-decoration: none;
         list-style: none;
+        margin: 0;
+        padding: 0;
     }
 
     .nav{
@@ -291,7 +293,7 @@ margin-bottom: 72px;
 
 .team-item {
     background-color: #ffffff;
-    
+    width: calc((100% - 72px) / 4);
 }
 
 .team-list:first-child{
@@ -450,5 +452,6 @@ color: var(--color-footer-logo);
 }
 
 .portfolio-cards-item{
-    
+    border-radius: 0px 0px 4px 4px; 
+    padding: 32px 16px;
 }
