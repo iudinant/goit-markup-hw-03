@@ -5,6 +5,7 @@
     --color-nav-btn: #F4F4FD;
     --color-footer-logo: #ffffff;
     --color-footer-text: #F4F4FD;
+    --color-btn-border-portfolio: #e7e9fc;
 }
 
 body{
@@ -102,6 +103,7 @@ img{
     color: var(--color-primary);
     display: flex;
     margin-right: 40px;
+    padding: 24px 0;
     }
 
     .nav-link:hover,
@@ -325,23 +327,25 @@ font-weight: 500;
 }
 .footer-link {
     font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--color-background);
-text-decoration: none;
-margin-top: 100px;
-margin-bottom: 16px;
-display: inline-block;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-background);
+    text-decoration: none;
+    margin-top: 100px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
+
 .footer-text {
     font-family: inherit;
     color: var(--color-footer-text);
     display: flex;
     margin-bottom: 100px;
 }
+
 .logo-style-bottom{
     color: var(--color-footer-text);
 }
@@ -372,6 +376,14 @@ color: var(--color-footer-logo);
 .portfolio-container{
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+.portfolio-card-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    
 }
 .container-nav{
     display: flex;
@@ -379,6 +391,11 @@ color: var(--color-footer-logo);
     align-items: center;
     justify-content: center;
 }
+
+.portfolio-cards {
+    padding-top: 96px; padding-bottom: 120px;
+}
+
 .portfolio-cards-title {
     font-family: inherit;
     font-weight: 500;
@@ -389,6 +406,7 @@ color: var(--color-footer-logo);
     margin-top: 32px;
     margin-bottom: 8px;
 }
+
 .portfolio-cards-text {
     font-family: inherit;
     color: var(--color-secondary);
@@ -406,11 +424,22 @@ color: var(--color-footer-logo);
     margin-top: 96px;
     margin-bottom: 72px;
 }
+
+.nav-btn{
+    padding: 12px 24px;
+    border: 1px solid var(--color-btn-border-portfolio);
+    border-radius: 4px;
+}
+
+.nav-btn:hover,
+.nav-btn:focus{
+    border: 1px solid transparent;
+}
 .portfolio-cards-list{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    
+    row-gap: 24px;
 }
 
 .portfolio-cards-item{
