@@ -301,14 +301,14 @@ margin-bottom: 72px;
 }
 
 .team-item {
-    
+    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
 }
 
-/* .team-list:first-child{
-    width: calc(100% - 72px) / 4;
+.team-list:first-child{
     border-radius: 0px 0px 4px 4px;
-} */
+    
+}
 
 .team-item-title{
 font-family: inherit;
