@@ -292,14 +292,14 @@ margin-bottom: 72px;
 }
 
 .team-item {
-    background-color: #ffffff;
+    
     width: calc((100% - 72px) / 4);
 }
 
-.team-list:first-child{
+/* .team-list:first-child{
     width: calc(100% - 72px) / 4;
     border-radius: 0px 0px 4px 4px;
-}
+} */
 
 .team-item-title{
 font-family: inherit;
@@ -402,7 +402,8 @@ color: var(--color-footer-logo);
 }
 
 .portfolio-cards {
-    padding-top: 96px; padding-bottom: 120px;
+    padding-top: 96px; 
+    padding-bottom: 120px;
 }
 
 .portfolio-cards-title {
@@ -449,9 +450,12 @@ color: var(--color-footer-logo);
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    
 }
 
 .portfolio-cards-item{
     border-radius: 0px 0px 4px 4px; 
     padding: 32px 16px;
+    width: calc((100% - 48px) / 3); 
 }
+
