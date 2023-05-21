@@ -199,6 +199,8 @@ cursor: pointer;
 .preferences {
     font-family: inherit;
     padding: 120px 0;
+    
+   
 }
 .preferences-title {
     font-weight: 500;
@@ -212,11 +214,16 @@ cursor: pointer;
 .preferences-list{
     display: flex;
     gap: 24px;
+    
 }
 
-.preferences-list:first-child{
-    flex-basis: calc((100% - 72px) / 4); 
+.preferences-item{
+    width: calc((100% - 72px) / 4); 
 }
+
+/* .preferences-list:first-child{
+    flex-basis: calc((100% - 72px) / 4); 
+} */
 
 .preferences-text {
     font-family: inherit;
@@ -269,7 +276,7 @@ cursor: pointer;
     align-items: center;
     padding: 0px 0px 24px;
     border-radius: 0px 0px 4px 4px;
-    
+    padding: 32px 16px;
 }
 
 .team-title {
@@ -289,6 +296,8 @@ margin-bottom: 72px;
     align-items: center;
     gap: 24px;
     margin-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 .team-item {
@@ -330,7 +339,7 @@ font-weight: 500;
 }
 
 .footer-container{
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     
 }
