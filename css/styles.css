@@ -343,8 +343,10 @@ font-weight: 500;
 }
 
 .footer-container{
+    display: inline-block;
     display: flex;
     flex-direction: column;
+    
     /* align-items: flex-start;
     justify-content: left;
     */
