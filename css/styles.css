@@ -12,7 +12,6 @@ body{
 font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #ffffff;
-
 }
 
 p,
@@ -194,8 +193,6 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 600px; */
-    /* padding: 188px 0; */
 }
 
 /* preferences */
@@ -238,9 +235,6 @@ cursor: pointer;
     width: calc((100% - 72px) / 4); 
 }
 
-/* .preferences-list:first-child{
-    flex-basis: calc((100% - 72px) / 4); 
-} */
 
 .preferences-text {
     font-family: inherit;
@@ -308,11 +302,9 @@ margin-bottom: 72px;
 }
 
 .team-list {
-    /* background-color: #ffffff; */
     display: flex;
     align-items: center;
     gap: 24px;
-    margin-bottom: 120px;
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -322,10 +314,7 @@ margin-bottom: 72px;
     width: calc((100% - 72px) / 4);
 }
 
-/* .team-list:first-child{
-    border-radius: 0px 0px 4px 4px;
-    
-} */
+
 
 .team-item-title{
 font-family: inherit;
@@ -343,7 +332,6 @@ font-weight: 500;
     color: var(--color-secondary);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* margin-bottom: 32px; */
     text-align: center;
 }
 
@@ -355,10 +343,12 @@ font-weight: 500;
 }
 
 .footer-container{
-    display: inline-block;
+    display: flex;
     flex-direction: column;
-    width: 264px;
-    height: 112px;
+    /* align-items: flex-start;
+    justify-content: left;
+    */
+    
 }
 .footer-link {
     font-family: 'Raleway', sans-serif;
@@ -370,17 +360,19 @@ font-weight: 500;
     color: var(--color-background);
     text-decoration: none;
     margin-bottom: 16px;
-    display: inline-block;  
+    display: inline-block;
 }
 
 .footer-text {
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+        font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-footer-text);
+
     display: flex;
-   
-    /* margin-left: 156px; */
-    width: 264px;
-    
+    max-width: 264px;
     flex-wrap: wrap;
 }
 
@@ -399,7 +391,6 @@ font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    /* margin-bottom: 72px; */
 
 }
 
@@ -443,9 +434,7 @@ color: var(--color-footer-logo);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-primary);
-    /* padding-top: 32px; */
     margin-bottom: 8px;
-    padding-left: 16px;
 }
 
 .portfolio-cards-text {
@@ -455,9 +444,8 @@ color: var(--color-footer-logo);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* margin-bottom: 32px; */
-    padding-left: 16px;
 }
+
 .nav-btn-list{
     display: flex;
     align-items: center;
