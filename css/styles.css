@@ -343,7 +343,6 @@ font-weight: 500;
 }
 
 .footer-container{
-    display: inline-block;
     display: flex;
     flex-direction: column;
     
@@ -363,6 +362,7 @@ font-weight: 500;
     text-decoration: none;
     margin-bottom: 16px;
     display: inline-block;
+    width: 264px;
 }
 
 .footer-text {
